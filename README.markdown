@@ -24,6 +24,21 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## problems
+
+### read: Illegal option
+If you run into 'read: Illegal option' errors with script/bootstrap, this
+is most likely because your system is sym-linking 'sh' to 'dash'.  The following
+command will show any symbolic link assigned to /bin/sh:
+
+    ls -l /bin/sh
+
+It may be simplest to remove this link and instead link to bash, at least
+temporarily.
+
+    sudo rm /bin/sh
+    sudo ln -s bash /bin/sh
+
 ## topical
 
 Everything's built around topic areas. If you're adding a new area to your
