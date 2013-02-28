@@ -1,0 +1,1 @@
+alias ft='firetower'
