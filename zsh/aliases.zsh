@@ -6,3 +6,4 @@ if [[ "$unamestr" != "Darwin" ]]; then
 fi
 
 alias v=gvim
+alias m="open -a marked.app"
