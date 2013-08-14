@@ -47,3 +47,6 @@ export NODE_PATH="/usr/local/lib/node"
 
 # So jasmine-node is accessible from the CLI
 export PATH="/usr/local/share/npm/bin:$PATH"
+
+# Help jruby start-up faster.
+export JAVA_OPTS="-d32"
