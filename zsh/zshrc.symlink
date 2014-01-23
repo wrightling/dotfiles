@@ -48,5 +48,8 @@ export NODE_PATH="/usr/local/lib/node"
 # So jasmine-node is accessible from the CLI
 export PATH="/usr/local/share/npm/bin:$PATH"
 
+# so we can find useful postgresapp-installed commands
+export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+
 # Help jruby start-up faster.
 # export JAVA_OPTS="-d32"
