@@ -53,3 +53,5 @@ export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
 # Help jruby start-up faster.
 # export JAVA_OPTS="-d32"
+
+export ZDOTDIR=$HOME

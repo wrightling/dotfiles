@@ -7,3 +7,4 @@ fi
 
 alias v=gvim
 alias m="open -a marked.app"
+alias be="bundle exec"
