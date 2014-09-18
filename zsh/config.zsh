@@ -47,3 +47,4 @@ bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
 bindkey '^h' push-line-or-edit
+bindkey -e
