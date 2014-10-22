@@ -6,12 +6,13 @@
 [user]
         name = AUTHORNAME
         email = AUTHOREMAIL
-        helper = osxkeychain
+[credential]
+        helper = GIT_CREDENTIAL_HELPER
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
-        rank-contributers = !$ZSH/bin/git-rank-contributers
+        rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
 [color]
         diff = auto
