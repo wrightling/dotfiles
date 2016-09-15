@@ -5,7 +5,8 @@ if [[ "$unamestr" != "Darwin" ]]; then
   alias ls='ls --color=yes'
 fi
 
-alias v=gvim
+alias v=vim
+alias vi=vim
 alias m="open -a marked.app"
 alias be="bundle exec"
 
